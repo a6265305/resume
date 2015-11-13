@@ -1,0 +1,108 @@
+body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 18px;
+            }
+            nav {
+                display: block;
+                float: left;
+                width: 50%;
+                margin-bottom: 30px;
+                
+            }
+            .nav ul{
+                margin: 0;
+                padding: 0;
+            }
+            .nav li{
+                position: relative;
+                float: left;
+                color: #FFF;
+                list-style: none;
+                background: #8B4513;
+            }
+            .nav li a {
+                display: block;        
+                padding: 15px 30px;
+                color: #FFF;
+                text-decoration: none;
+            }
+
+            .nav li:hover {
+                background: #8B4513;
+            }
+            .nav li ul {
+                background-color: rgba(231, 124, 64, 1);
+                display: none;
+                position: absolute;
+                top: 100%;
+            }
+            .nav li:hover ul {
+                display: block;
+                right: 0;
+                left: 0;
+                top: 100%;
+            }
+            .toggle { 
+                display: none;
+            }
+            .arrow-bottom {
+                position: absolute;
+                top: 25px;
+                right: 13px;
+                margin-left: 5px;
+                border-top: 4px solid #FFF;
+                border-right: 4px solid transparent;    
+                border-left: 4px solid transparent;        
+                width: 1px;
+                height: 1px;
+            }
+            @media (max-width: 640px) { 
+                .nav {
+                    display: none;
+                    
+                }
+                .toggle {
+                    display: inline-block;
+                    background: #D8540A;
+                    padding: 10px 15px;
+                    color: #FFF;
+                }
+                .nav li{
+                    float: none;
+                }
+                .nav li a{
+                    padding: 10px 15px;
+                }
+                .nav li:hover ul {
+                    position: relative;
+                    display: block;
+                    background: transparent;
+                }
+                .nav li:hover ul li{
+                    background: transparent;
+                }
+                .nav li:hover ul li a{
+                    padding-left: 30px;
+                }
+                .arrow-bottom {
+                    top: 20px;
+                }
+            }                
+#nav-wrapper {
+    width: 100%;
+    background-color: aqua;
+    height: 54px;
+    
+}
+
+#nav-wrapper h1 {
+    text-align: left;
+    float: left;
+    font-size: 40px;
+    margin: 0px 38.8% 0 50px;
+    line-height: 54px;
+}
+
+

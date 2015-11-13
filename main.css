@@ -1,8 +1,86 @@
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
     /*字體大小*/
     text-align: center;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: e3e3e3;
+}
+
+
+
+.fa-code {
+    
+}
+
+h2 {
+    font-size: 30px;
+    /*字體大小*/
+    text-align: center;
+ 
+}
+
+p {
+    font-size: 30px;
+    /*字體大小*/
+    text-align: center;
+}
+
+
+
+h3 {
+    font-size: 25px;
+    /*字體大小*/
+    text-align: center;
+}
+
+
+
+div {
+    margin: auto;    
+}
+
+h4 {
+    font-size: 25px;
+    /*字體大小*/
+    text-align: left;
+    margin-left: 20px;
+    }
+
+#my-photo {
+    height: auto;
+    width: 20%;
+    margin: auto;/*平均邊界*/
+    background-color: #e3e3e3;
+}
+
+img2 {
+    width: 20%;
+    height: auto;
+}
+
+
+
+img {
+    width: 20%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40%;
+    }
+
+
+
+#my-photo {
+    height: auto;
+    width: 100%;
+    margin: auto;/*平均邊界*/
+    background-color: #e3e3e3;
 }
 
 #beautiful-photo {
@@ -12,15 +90,16 @@ h1 {
     background-color: #e3e3e3;
 }
 
-body {
-    margin: 0;
+
+
+header {
+    margin: auto;
 }
 
-img {
-    width: 100%;
-    height: auto;
+iframe {
+    margin: 0px 0px 10px 10px;
 }
 
-.fa-code {
-    
+marquee {
+    font-size: 40px;
 }
