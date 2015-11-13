@@ -20,7 +20,7 @@ body {
                 float: left;
                 color: #FFF;
                 list-style: none;
-                background: #8B4513;
+                background: #AAAAAA;
             }
             .nav li a {
                 display: block;        
@@ -30,7 +30,7 @@ body {
             }
 
             .nav li:hover {
-                background: #8B4513;
+                background: #AAAAAA;
             }
             .nav li ul {
                 background-color: rgba(231, 124, 64, 1);
@@ -65,7 +65,7 @@ body {
                 }
                 .toggle {
                     display: inline-block;
-                    background: #D8540A;
+                    background: #AAAAAA;
                     padding: 10px 15px;
                     color: #FFF;
                 }
@@ -92,7 +92,7 @@ body {
             }                
 #nav-wrapper {
     width: 100%;
-    background-color: aqua;
+    background-color: #AAAAAA;
     height: 54px;
     
 }
@@ -101,8 +101,9 @@ body {
     text-align: left;
     float: left;
     font-size: 40px;
-    margin: 0px 38.8% 0 50px;
+    margin: 0px 14% 0 6%;
     line-height: 54px;
+    color: purple;
 }
 
 
