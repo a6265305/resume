@@ -1,36 +1,89 @@
 <html>
     <head>
-    	<meta charset="UTF-8">
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="navbar.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <title>SiteTuts 網頁設計資源</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
+    
     <body>
+        <div id="nav-wrapper">
+            <h1>趙明琛</h1>
+            <span class="toggle">Menu</span>
+                <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="#">Works</a>
+                        <ul>
+                            <li><a href="#">Work1</a></li>
+                            <li><a href="#">Work2</a></li>
+                            <li><a href="#">Work3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Links</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>                
+                </ul>
+            </nav>
+        </div>
+        
+        
+        
         <header>
-            <div id="beautiful-photo">            
-                <img src="scenery.JPG" />
-                <!--
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/MyZn7BqYi-8" frameborder="0" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BRA8wwkVuac?list=PLe6VxEvieCz_4UWX9y4OKEPEgaCJlXS9c" frameborder="0" allowfullscreen></iframe>
-                -->            
+            <div id="my-photo">            
+                <div class="mid">  
+                    <img src="myphoto.PNG" />
+                </div>  
             </div>
-            <div>
-                <h1>趙明琛(Ming-Chan Chao)</h1>
-                <h6>趙明琛(Ming-Chan Chao)</h6>
-                <h2>目前就讀 成大電機三年級(study in NCKU EE grade3)</h2>
-                <p>音樂家 鋼琴主修 出生於台灣</p>
-            </div>            
         </header>
-
+        
+        
+        <p> 
+            <font color=#006400 size=5 face="華康娃娃體">
+                <marquee behavior="alternate" onMouseOver="this.stop()" onMouseOut="this.start()">火鍋就是我的最愛，想吃就一起來喔！</marquee>
+            </font>
+        </p>
+        
+        <div>
+                <h1><span onmouseover="this.style.fontSize='80px'" onmouseout="this.style.fontSize='50px'">趙明琛(Ming-Chan Chao)</span></h1>
+                <h2>目前就讀 成大電機三年級</h2>
+                <h3>(Study in NCKU EE Grade3)</h3>
+                <h2>音樂家 鋼琴主修 出生於1993 台灣</h2>
+                <h3>(Musician, Majoring in piano, born in 1993, Taiwan)</h3>
+                <h2><b><a href="https://www.facebook.com/profile.php?id=100001878615353" target="_blank">趙明琛的FB(Ming-Chen Chao's FB)</a></b></h2><!--target="_blank"另開頁面-->
+            </div>
+            <div>            
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/Y_UMibiueuk" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/BRA8wwkVuac?list=PLe6VxEvieCz_4UWX9y4OKEPEgaCJlXS9c" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/ruomF361JOo" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/0-KxFQsDOB4" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/ntOeVoLvmMs" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/MyZn7BqYi-8" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/LWuLi3h9dFM" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/wSnbOp32as0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/KSra6VxgcYY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        
+      
         <div id="categories">
             <div>
-                <h3><i class="fa fa-map-marker"></i> Location</h3>
-                Austin, TX
-            </div>
-            <div>
-                <h3><i class="fa fa-code"></i> Skills</h3>AJAX, ASP, ASP.Net, ASP.Net MVC, CoffeeScript, CSS3, HTML5,       JavaScript, jQuery, LESS, Sass/SCSS/Compass, XHTML
-            </div>
-            <div>
-                <h3><i class="fa fa-link"></i> URL</h3><a href="">hellojosh.com</a>
+                <h2><i class="fa fa-map-marker"></i> 演出經驗</h2>
+                <div><h4>*2014 春 奇美小晚場 演出 "Hard to say I'm sorry"</h4></div>
+                <div><h4>*2014 秋 奇美小晚場 演出 "精靈之歌"</h4></div>
+                <div><h4>*2014 秋 奇美下午場 演出 "晨星"</h4></div>
+                <div><h4>*2015 春 社團博覽會 演出 "第105天"</h4></div>
+                <div><h4>*2015 春 政治酒舞會 演出 "I've never been to me + 是什麼讓我遇見這樣的你"</h4></div>
+                <div><h4>*2015 夏 夏季音樂會 與'舞研社'合作呈現 "精靈之歌"</h4></div>
             </div>
         </div>
+        <embed src="16.wav" loop="1" hidden="false" autostart="true">
+        
+        
+        <script src="navbar.js"></script>
     </body>
 </html>
